@@ -1,0 +1,290 @@
+body {
+  color: #2B2B2B;
+  margin: 0px;
+  font-family: "PT Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: .02em;
+  line-height: 1.6em;
+}
+
+section {
+  width: 70%;
+  margin: auto;
+}
+
+footer {
+  font-size: 12px;
+  padding: 20px 70px;
+  float: right;
+  clear: both;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  border-bottom: 4px solid #cae8dc;
+}
+
+h2 {
+  margin: 50px auto 0px auto;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 100%;
+}
+
+hr {
+  color: #f7f7f7;
+  height: 1px;
+  width: 300px;
+}
+
+#imgLink:hover {
+  border-bottom: none;
+}
+
+#homelink {
+  color: black;
+}
+
+#homelink:hover {
+  color: black;
+  text-decoration: none;
+  border-bottom: none;
+}
+
+#featuredstories {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 0px;
+  clear: both;
+  width: 80%;
+}
+
+#imgcontainer {
+  margin: auto;
+  width: 80%;
+}
+
+figure {
+  padding-top: 20px;
+  display: inline-block;
+  width: 26%;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.title {
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  width: 100%;
+  margin: auto;
+}
+
+.outlet {
+  padding-top: 5px;
+}
+
+#featuredimg {
+  width:100%;
+  padding-bottom: 25px;
+  margin: auto;
+}
+
+#photoofbela2 {
+  width: 300px;
+}
+
+.outlet {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+button {
+  font-family: "proxima nova", sans-serif;
+  border-radius: 3px;
+  border: solid 2px #707070;
+  cursor: pointer;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1.1px;
+  padding: 13px 20px;
+}
+
+button:hover {
+  background-color: #707070;
+  color: white;
+  transition-duration: 0.2s;
+}
+
+@media screen and (min-width: 960px) {
+
+  header {
+    box-sizing: border-box;
+    width: 85%;
+    margin: auto;
+    font-size: 200%;
+    text-align: left;
+    padding-bottom: 5px;
+    padding-top: 30px;
+    clear: both;
+  }
+
+  h1 {
+    float: left;
+    font-family: gothic-open-shaded, sans-serif;
+    font-weight: 400;
+    /* can also take font-weight out */
+    font-style: normal;
+    font-size: 35px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 4px;
+  }
+
+  nav {
+    padding-top: 20px;
+    padding-left: 30px;
+    float: left;
+    text-transform: uppercase;
+    font-size: 16px;
+  }
+
+  nav a {
+      font-family: proxima-nova, sans-serif;
+      margin: 0px 10px;
+    }
+
+  #floatleft {
+    float: left;
+    width: 70%;
+  }
+
+  #floatright {
+    padding-top: 10px;
+    float: right;
+    width: 30%;
+  }
+
+  .description {
+    padding-right: 30px;
+    padding-top: 10px;
+    clear: both;
+    margin: auto;
+    box-sizing: border-box;
+    width: 55%;
+  }
+
+  .socials {
+    width: 50%;
+    float: right;
+  }
+
+  .icon {
+    padding-left: 15px;
+    width: 25px;
+    float: left;
+    padding-bottom: 50px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+  }
+
+  #photoaside {
+    float: left;
+    box-sizing: border-box;
+    padding-left: 70px;
+    padding-top: 10px;
+    width: 45%;
+    padding-bottom: 60px;
+  }
+
+  #photoofbela {
+    width: 350px;
+    box-shadow: 16px 13px #cae8dc;
+  }
+
+}
+
+/* @media screen and (max-width: 959px) {
+
+  header {
+    box-sizing: border-box;
+    margin: 20px 0px;
+    padding: 0px 70px;
+    font-size: 200%;
+    text-align: left;
+    padding-bottom: 5px;
+    padding-top: 30px;
+    clear: both;
+  }
+
+  h1 {
+    width: 700px;
+    float: left;
+    font-family: gothic-open-shaded, sans-serif;
+    font-weight: 400;
+    you can also take font-weight out
+    font-style: normal;
+    font-size: 65px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 4px;
+  }
+
+  nav {
+    width: 600px;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align: left;
+    float: left;
+  }
+
+  nav a {
+      margin: 0px 15px;
+    }
+
+  .description {
+    padding: 0px 60px;
+    padding-top: 10px;
+    float: left;
+    box-sizing: border-box;
+    width: 100%;
+  }
+
+  .socials {
+    padding-top: 20px;
+  }
+
+  .icon {
+    padding-right: 10px;
+    width: 20px;
+    float: left;
+    padding-bottom: 50px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+  }
+
+  #photoaside {
+    float: left;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: lightgrey;
+  }
+
+  #photoofbela {
+    padding: 40px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 60%;
+  }
+}

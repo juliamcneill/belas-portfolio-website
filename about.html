@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Julia McNeill</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+    <link rel="stylesheet" type="text/css" href="style/aboutstyle.css">
+    <link rel="stylesheet" href="https://use.typekit.net/lyi7izw.css">
+  </head>
+  <body>
+    <header>
+      <div id="floatleft">
+        <h1>Bela Kirpalani</h1>
+        <nav>
+          <a id="homelink" href="index.html">Home</a>
+          <a id="aboutlink" href="about.html">About</a>
+          <a id="storieslink" href="stories.html">Stories</a>
+          <a id="contactlink" href="contact.html">Contact</a>
+        </nav>
+      </div>
+      <div id="floatright">
+        <a href="mailto: belakirpalani@gmail.com" target="_blank"><img class="icon" src="images/email.png"></a>
+        <a href="https://www.linkedin.com/in/bela-kirpalani-266267126/" target="_blank"><img class="icon" src="images/linkedin.png"></a>
+        <a href="https://twitter.com/belakirpalani" target="_blank"><img class="icon" src="images/twitter.png"></a>
+      </div>
+    </header>
+    <section>
+      <article class="description">
+        <h2 id="typedintro"></h2>
+        <p>Born and raised on Long Island, I am a senior at New York University studying history. I’m currently an Editor-at-Large for NYU’s student-run newspaper, <a href="https://nyunews.com/staff/?writer=Bela+Kirpalani" target="_blank">Washington Square News</a>. Previously, I served as the Sports Editor and Deputy Managing Editor. At NYU, I have written about university athletics, started my own sports column and contributed to WNYU’s weekly soccer radio show, “The Other Football.”</p>
+        <p>I also cover women’s basketball for <a href="https://highposthoops.com/author/bkirpalani/">High Post Hoops</a> and <a href="https://www.slamonline.com/author/bela/">SLAM Magazine</a> and write about the NBA and other sports for <a href="https://uproxx.com/author/bela-kirpalani/">Uproxx</a>. Last summer, I interned for the National Basketball Association and I spent the fall of 2019 as an intern for SLAM, where I helped run the WSLAM social media accounts.</p>
+        <p>When I’m not reporting on sports, I can be found doing New York Times crossword puzzles, playing FIFA and reading coming-of-age novels.</p>
+        <p>You can find me on Twitter at @<a href="https://twitter.com/belakirpalani" target="_blank">belakirpalani</a>.</p>
+      </article>
+      <aside id="photoaside">
+        <img id="photoofbela" src="images/bela2.jpg">
+      </aside>
+    </section>
+    <script>
+    var i = 0;
+    var txt = 'Hi. I\'m Bela.';
+    var speed = 60;
+
+    function typeWriter() {
+      if (i < txt.length) {
+        document.getElementById("typedintro").innerHTML += txt.charAt(i);
+        i++;
+        setTimeout(typeWriter, speed);
+      }
+    }
+
+    document.addEventListener("DOMContentLoaded", typeWriter);
+
+    </script>
+  </body>
+</html>
